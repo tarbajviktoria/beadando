@@ -1,0 +1,11 @@
+EX11:
+
+
+def palindroma_e(n):
+    forditva = n[::-1] 
+    if n!=forditva: 
+        return False
+    else:
+        return True
+        
+print(palindroma_e(n))
