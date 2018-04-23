@@ -1,0 +1,13 @@
+EX4:
+
+
+def pigLatin(s):
+    c = s[0]
+    uj = s[1::]
+    uj+=c+"ay"
+    return uj
+    
+    
+    
+    s = input()
+print(pigLatin(s))
