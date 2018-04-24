@@ -9,5 +9,5 @@ def pigLatin(s):
     
     
     
-    s = input()
+s = input()
 print(pigLatin(s))
