@@ -1,0 +1,61 @@
+def atalakit(s):
+    uj = ""
+    
+         if c == 'A':
+            uj+=".-"+" "
+        if c == 'B':
+            uj+="-..."+" "
+        if c == 'C':
+            uj += "-.-."+" "
+        if c == 'D':
+            uj += "-.."+" "
+        if c == 'E':
+            uj += "."+" "
+        if c == 'F':
+            uj += "..-."+" "
+        if c == 'G':
+            uj += "--."+" "
+        if c == 'H':
+            uj+="...."+" "
+        if c == 'I':
+            uj+=".."+" "
+        if c == 'J':
+            uj += ".---"+" "
+        if c == 'K':
+            uj += "-.-"+" "
+        if c == 'L':
+            uj += ".-.."+" "
+        if c == 'M':
+            uj += "--"+" "
+        if c == 'N':
+            uj += "-."+" "
+        if c == 'O':
+            uj+="---"+" "
+        if c == 'P':
+            uj+=".--."+" "
+        if c == 'Q':
+            uj += "--.-"+" "
+        if c == 'R':
+            uj += ".-."+" "
+        if c == 'S':
+            uj += "..."+" "
+        if c == 'T':
+            uj += "-"+" "
+        if c == 'U':
+            uj += "..-"+" "
+        if c == 'V':
+            uj+="...-"+" "
+        if c == 'W':
+            uj+=".--"+" "
+        if c == 'X':
+            uj += "-..-"+" "
+        if c == 'Y':
+            uj += "-.--"+" "
+        if c == 'Z':
+            uj += "--.."+" "
+        return uj
+        
+        
+s = input("Adjon meg egy szoveget:  ")
+kodolt = atalakit(s)
+print("kodolva: ",kodolt)
