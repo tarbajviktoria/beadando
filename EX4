@@ -21,7 +21,7 @@ def szo_alakit(s):
         uj = s[1::]  
         uj += s[0] + "ay" 
         
-    return uj
+   return uj
     
 s=input()
 print(szo_alakit(s))
