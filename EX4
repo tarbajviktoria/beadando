@@ -11,3 +11,17 @@ def pigLatin(s):
     
 s = input()
 print(pigLatin(s))
+
+Javítva, nagy betűk miatt:
+def szo_alakit(s):
+    if s[0].isupper():
+        uj =  s[1].upper()+ s[2::] + s [0].lower() + "ay"
+        
+        else:
+        uj = s[1::]  
+        uj += s[0] + "ay" 
+        
+    return uj
+    
+s=input()
+print(szo_alakit(s))
