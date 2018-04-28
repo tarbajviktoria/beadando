@@ -55,6 +55,30 @@ def atalakit(s):
             uj += "--.."+" "
         return uj
         
+ #később jöttem rá,hogy számokat is kell
+        
+        if c == '0':
+            uj += "-----"+" "
+        if c == '1':
+            uj += ".----"+" "
+        if c == '2':
+            uj += "..---"+" "
+        if c == '3':
+            uj += "...--"+" "
+        if c == '4':
+            uj += "....-"+" "
+        if c == '5':
+            uj += "....."+" "
+        if c == '6':
+            uj += "-...."+" "
+        if c == '7':
+            uj += "--..."+" "
+        if c == '8':
+            uj += "---.."+" "
+        if c == '9':
+            uj += "----."+" "
+
+        
         
 s = input("Adjon meg egy szoveget:  ")
 kodolt = atalakit(s)
