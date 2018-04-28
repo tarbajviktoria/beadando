@@ -2,8 +2,9 @@
 
 
 def palindroma_e(n):
-    forditva = n[::-1] 
-    if n!=forditva: 
+    s=str(n)
+    forditva = s[::-1] 
+    if s!=forditva: 
         return False
     else:
         return True
