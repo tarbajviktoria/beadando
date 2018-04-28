@@ -53,7 +53,7 @@ def atalakit(s):
             uj += "-.--"+" "
         if c == 'Z':
             uj += "--.."+" "
-        return uj
+        
         
  #később jöttem rá,hogy számokat is kell
         
@@ -77,6 +77,8 @@ def atalakit(s):
             uj += "---.."+" "
         if c == '9':
             uj += "----."+" "
+         
+    return uj
 
         
         
