@@ -22,6 +22,17 @@ def szo_alakit(s):
         uj += s[0] + "ay" 
         
    return uj
+   
+def pig_latinna_alakit(s):
+    lista = s.split(" ")  
+    for i in range(0,len(lista)): 
+        lista[i] = szo_alakit(lista[i]) 
+
+    return " ".join(lista) 
+
+
+s = input()
+print(pig_latinna_alakit(s))
     
 s=input()
 print(szo_alakit(s))
