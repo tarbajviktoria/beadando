@@ -34,5 +34,4 @@ def pig_latinna_alakit(s):
 s = input()
 print(pig_latinna_alakit(s))
     
-s=input()
-print(szo_alakit(s))
+
