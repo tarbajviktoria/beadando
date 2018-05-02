@@ -82,9 +82,97 @@ def atalakit(s):
             uj +="......."+" "
          
     return uj
+        
+        def visszaalakit(s):
+        uj = ""
+        lista = s.split(" ")
+        for c in lista:
+            if c == '.-':
+                uj += "A"
+            if c == '-...': 
+                uj += "B"
+            if c == '-.-.':
+                uj += "C"
+            if c == '-..':
+                uj += "D"
+            if c == '.':
+                uj += "E"
+            if c == '..-.':
+                uj += "F"
+            if c == '--.':
+                uj += "G"
+            if c == '....':
+                uj += "H"
+            if c == '..':
+                uj += "I"
+            if c == '.---':
+                uj += "J"
+            if c == '-.-':
+                uj += "K"
+            if c == '.-..':
+                uj += "L"
+            if c == '--':
+                uj += "M"
+            if c == '-.':
+                uj += "N"
+            if c == '---':
+                uj += "O"
+            if c == '.--.':
+                uj += "P"
+            if c == '--.-':
+                uj += "Q"
+            if c == '.-.':
+                uj += "R"
+            if c == '...':
+                uj += "S"
+            if c == '-':
+                uj += "T"
+            if c == '..-':
+                uj += "U"
+            if c == '...-':
+                uj += "V"
+            if c == '.--':
+                uj += "W"
+            if c == '-..-':
+                uj += "X"
+            if c == '-.--':
+                uj += "Y"
+            if c == '--..':
+                uj += "Z"
+
+            if c == '-----':
+                uj += "0"
+            if c == '.----':
+                uj += "1"
+            if c == '..---':
+                uj += "2"
+            if c == '...--':
+                uj += "3"
+            if c == '....-':
+                uj += "4"
+            if c == '.....':
+                uj += "5"
+            if c == '-....':
+                uj += "6"
+            if c == '--...':
+                uj += "7"
+            if c == '---..':
+                uj += "8"
+            if c == '----.':
+                uj += "9"
+
+            if c == '.......':
+                uj+=" "
+
+        return uj
+
+
+s = input("Adjon meg egy szoveget ")
+kodolt = atalakit(s)
+print("kodolva: ",kodolt)
+print("--------------")
+print("eredeti: ",visszaalakit(kodolt))
 
         
         
-s = input("Adjon meg egy szoveget:  ")
-kodolt = atalakit(s)
-print("kodolva: ",kodolt)
+
