@@ -31,6 +31,7 @@ def pig_latinna_alakit(s):
     return " ".join(lista) 
 
 
+
 s = input()
 print(pig_latinna_alakit(s))
     
