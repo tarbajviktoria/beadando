@@ -174,5 +174,5 @@ print("--------------")
 print("eredeti: ",visszaalakit(kodolt))
 
         
-        
+
 
