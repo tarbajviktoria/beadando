@@ -172,7 +172,6 @@ kodolt = atalakit(s)
 print("kodolva: ",kodolt)
 print("--------------")
 print("eredeti: ",visszaalakit(kodolt))
-
         
 
 
