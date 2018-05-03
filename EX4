@@ -1,6 +1,5 @@
 #EX4
 
-
 def szo_alakit(s):
     c = s[0]
     uj = s[1::]
