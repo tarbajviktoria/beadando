@@ -1,12 +1,19 @@
 #EX11
 
-
 def palindroma_e(n):
-    s=str(n)
+    s = str(n) 
     forditva = s[::-1] 
     if s!=forditva: 
         return False
     else:
         return True
-        
-print(palindroma_e(n))
+
+
+def legnagyobb_palindorma():
+    for i in range(999,100,-1): 
+        for j in range(999,100,-1):
+            if palindroma_e(i*j):
+                return i*j
+
+
+print("A legnagyobb palindroma szam: ",legnagyobb_palindorma())
