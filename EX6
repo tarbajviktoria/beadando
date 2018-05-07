@@ -1,7 +1,8 @@
 def atalakit(s):
     uj = ""
-    
-         if c == 'A':
+
+    for c in s:
+        if c == 'A':
             uj+=".-"+" "
         if c == 'B':
             uj+="-..."+" "
@@ -53,10 +54,7 @@ def atalakit(s):
             uj += "-.--"+" "
         if c == 'Z':
             uj += "--.."+" "
-        
-        
- #később jöttem rá,hogy számokat is kell
-        
+
         if c == '0':
             uj += "-----"+" "
         if c == '1':
@@ -77,13 +75,14 @@ def atalakit(s):
             uj += "---.."+" "
         if c == '9':
             uj += "----."+" "
-            
+
         if c == ' ':
             uj +="......."+" "
-         
+
     return uj
-        
-        def visszaalakit(s):
+
+
+def visszaalakit(s):
         uj = ""
         lista = s.split(" ")
         for c in lista:
@@ -167,11 +166,8 @@ def atalakit(s):
         return uj
 
 
-s = input("Adjon meg egy szoveget ")
+s = input("Adjon meg egy szoveget:  ")
 kodolt = atalakit(s)
 print("kodolva: ",kodolt)
-print("--------------")
 print("eredeti: ",visszaalakit(kodolt))
-        
-
 
