@@ -1,36 +1,22 @@
 #EX4
 
 def szo_alakit(s):
-    c = s[0]
-    uj = s[1::]
-    uj+=c+"ay"
-    return uj
-    
-    
-    
-s = input()
-print(pigLatin(s))
-
-def szo_alakit(s):
     if s[0].isupper():
         uj =  s[1].upper()+ s[2::] + s [0].lower() + "ay"
-        
-        else:
+    else:
         uj = s[1::]  
-        uj += s[0] + "ay" 
-        
-   return uj
-   
+        uj += s[0] + "ay"
+    return uj
+
+
+
 def pig_latinna_alakit(s):
     lista = s.split(" ")  
     for i in range(0,len(lista)): 
         lista[i] = szo_alakit(lista[i]) 
-
     return " ".join(lista) 
-
-
 
 s = input()
 print(pig_latinna_alakit(s))
-    
+
 
