@@ -16,4 +16,5 @@ def legnagyobb_palindorma():
                 return i*j
 
 
+
 print("A legnagyobb palindroma szam: ",legnagyobb_palindorma())
