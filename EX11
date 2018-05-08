@@ -1,5 +1,6 @@
 #EX11
 
+
 def palindroma_e(n):
     s = str(n) 
     forditva = s[::-1] 
