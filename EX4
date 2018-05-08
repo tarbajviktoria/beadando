@@ -1,5 +1,6 @@
 #EX4
 
+
 def szo_alakit(s):
     if s[0].isupper():
         uj =  s[1].upper()+ s[2::] + s [0].lower() + "ay"
