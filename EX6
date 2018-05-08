@@ -1,7 +1,5 @@
 EX6:
 
-
-
 def atalakit(s):
     uj = ""
 
