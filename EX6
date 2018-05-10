@@ -1,60 +1,61 @@
 EX6:
 
+# https://www.browserling.com/tools/text-to-morse
+
 def atalakit(s):
     uj = ""
-
     for c in s:
-        if c == 'A':
+        if c == 'A' or c == "a":
             uj+=".-"+" "
-        if c == 'B':
+        if c == 'B' or c == "b":
             uj+="-..."+" "
-        if c == 'C':
+        if c == 'C' or c == "c":
             uj += "-.-."+" "
-        if c == 'D':
+        if c == 'D' or c == "d":
             uj += "-.."+" "
-        if c == 'E':
+        if c == 'E' or c == "e":
             uj += "."+" "
-        if c == 'F':
+        if c == 'F' or c == "f":
             uj += "..-."+" "
-        if c == 'G':
+        if c == 'G' or c == "g":
             uj += "--."+" "
-        if c == 'H':
+        if c == 'H'or c == "h":
             uj+="...."+" "
-        if c == 'I':
+        if c == 'I' or c == "i":
             uj+=".."+" "
-        if c == 'J':
+        if c == 'J' or c == "j":
             uj += ".---"+" "
-        if c == 'K':
+        if c == 'K' or c == "k":
             uj += "-.-"+" "
-        if c == 'L':
+        if c == 'L' or c == "l":
             uj += ".-.."+" "
-        if c == 'M':
+        if c == 'M' or c == "m":
             uj += "--"+" "
-        if c == 'N':
+        if c == 'N' or c == "n":
             uj += "-."+" "
-        if c == 'O':
+        if c == 'O' or c == "o":
             uj+="---"+" "
-        if c == 'P':
+        if c == 'P' or c == "p":
             uj+=".--."+" "
-        if c == 'Q':
+        if c == 'Q' or c == "q":
             uj += "--.-"+" "
-        if c == 'R':
+        if c == 'R' or c == "r":
             uj += ".-."+" "
-        if c == 'S':
+        if c == 'S' or c == "s":
             uj += "..."+" "
-        if c == 'T':
+        if c == 'T' or c == "t":
             uj += "-"+" "
-        if c == 'U':
+        if c == 'U' or c == "u": 
             uj += "..-"+" "
-        if c == 'V':
+        if c == 'V' or c == "v":
             uj+="...-"+" "
-        if c == 'W':
+        if c == 'W' or c == "w":
             uj+=".--"+" "
-        if c == 'X':
+        if c == 'X' or c == "x":
             uj += "-..-"+" "
-        if c == 'Y':
+        if c == 'Y' or c == "y":
             uj += "-.--"+" "
-        if c == 'Z':
+        if c == 'Z' or c == "z":
             uj += "--.."+" "
 
         if c == '0':
@@ -90,7 +91,7 @@ def visszaalakit(s):
         for c in lista:
             if c == '.-':
                 uj += "A"
-            if c == '-...': 
+            if c == '-...':
                 uj += "B"
             if c == '-.-.':
                 uj += "C"
@@ -171,5 +172,5 @@ def visszaalakit(s):
 s = input("Adjon meg egy szoveget:  ")
 kodolt = atalakit(s)
 print("kodolva: ",kodolt)
+print("--------------")
 print("eredeti: ",visszaalakit(kodolt))
-
